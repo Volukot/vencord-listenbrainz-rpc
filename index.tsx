@@ -91,6 +91,7 @@ const settings = definePluginSettings({
   mbContact: {
     description: "ListenBrainz contact",
     type: OptionType.STRING,
+    default: "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
   },
   shareUsername: {
     description:
@@ -194,6 +195,10 @@ export default definePlugin({
     {
       id: 130388483494641664n,
       name: "qouesm",
+    },
+    {
+      id: 1306472600536612884,
+      name: "kot :3"
     },
   ],
 
