@@ -217,7 +217,7 @@ export default definePlugin({
     this.updatePresence();
     this.updateInterval = setInterval(() => {
       this.updatePresence();
-    }, 16000);
+    }, 12000);
   },
 
   stop() {
@@ -351,13 +351,13 @@ export default definePlugin({
 
     if (settings.store.shareUsername)
       buttons.push({
-        label: "ListenBrainz Profile",
+        label: "listenBrainz profile :3",
         url: `https://www.listenbrainz.org/user/${settings.store.username}`,
       });
 
     if (settings.store.shareSong)
       buttons.push({
-        label: "View Song",
+        label: "view the song owo",
         url: trackData.url,
       });
 
