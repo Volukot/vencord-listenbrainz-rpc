@@ -351,7 +351,7 @@ export default definePlugin({
 
     if (settings.store.shareUsername)
       buttons.push({
-        label: "listenBrainz profile :3",
+        label: "listenbrainz profile :3",
         url: `https://www.listenbrainz.org/user/${settings.store.username}`,
       });
 
